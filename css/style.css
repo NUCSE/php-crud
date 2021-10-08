@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    height: 100vh;
+}
+
+.header{
+    text-align: center;
+    background-color: #000;
+    padding: 40px 20px;
+    color: #fff; 
+}
+
+.main{
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.content{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentLeft{
+    padding: 2rem 4rem;
+    margin: 2rem 0 2rem 0;
+    line-height: 1rem;
+}
+
+#clheader{
+    margin: 3px 0 20px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted #929292;
+    padding: 2rem 2rem;
+}
+
+#from .formitem{
+    padding: 5px 0;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.submitbtn{
+    cursor: pointer;
+}
+
+.contentRight{
+    padding: 2rem 4rem;
+    margin: 2rem 0 2rem 0;
+}
+
+#footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    width: 70% auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.crheader{
+    margin-bottom: 10px;
+}
+
+/* th{
+    padding: 5px;
+    border: 1px dotted #ebf0a9;
+} */
+
+table, tr, th, td{
+    padding: 5px;
+}
+
+.tableheader{
+    background-color: #b8b8b8;
+}
+
+table button{
+    padding: 5px;
+    cursor: pointer;
+}
